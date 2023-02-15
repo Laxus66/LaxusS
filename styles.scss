@@ -37,8 +37,9 @@
 
 // introduct btn
 a.introduct_btn {
-    padding: 20px 40px;
-    line-height: 10px;
+    height: 2.5em;
+    width: 9em;
+    line-height: 2.5em;
     color: #fff;
     font-size: 20px;
     background: var(--color-main);
@@ -58,13 +59,13 @@ a.introduct_btn {
         transform: scale(0);
         background: #000;
         position: absolute;
-        right: -200px;
-        bottom: -200px;
+        right: -12.5em;
+        bottom: -12.5em;
         content: '';
         border-radius: 100%;
         transition: all ease .6s;
-        width: 400px;
-        height: 400px;
+        width: 21.125em;
+        height: 25em;
     }
 
     &:hover:after {
@@ -84,7 +85,10 @@ a.introduct_btn {
     .box {
         border-radius: 4px;
         display: inline-block;
-        padding: 13px 40px;
+        // padding: 13px 40px;
+        height: 3em;
+        width: 10em;
+        line-height: 3em;
         border-right: 1px solid;
         border-left: 1px solid;
         background:
